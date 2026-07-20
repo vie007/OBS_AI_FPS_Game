@@ -1,0 +1,56 @@
+Google Chrome
+Chrome
+Microsoft Edge
+Edge
+Mozilla Firefox
+Firefox
+Opera
+Opera GX
+Brave
+Vivaldi
+Yandex Browser
+File Explorer
+Explorer
+Windows Explorer
+Settings
+Calculator
+Notepad
+WordPad
+Paint
+Photos
+Media Player
+VLC media player
+Windows Terminal
+Command Prompt
+PowerShell
+Task Manager
+Device Manager
+Control Panel
+Microsoft Store
+Microsoft Teams
+Discord
+Telegram
+WhatsApp
+Slack
+Skype
+Zoom
+Steam
+Epic Games Launcher
+Battle.net
+Ubisoft Connect
+EA app
+Spotify
+OBS Studio
+NVIDIA App
+GeForce Experience
+Visual Studio Code
+Visual Studio
+PyCharm
+GitHub Desktop
+WinRAR
+7-Zip File Manager
+Downloads
+Documents
+Pictures
+Videos
+Music
