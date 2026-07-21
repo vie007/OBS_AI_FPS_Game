@@ -17,7 +17,7 @@ import platform
 
 # ──────────────────── 配置 ────────────────────
 
-APP_NAME = "西瓜去水印文案配音助手"
+APP_NAME = "Watermelon Aimbot"
 ENTRY_POINT = "run.py"
 ICON_FILE = os.path.join("icon", "icon.ico")  # 直接使用标准 .ico 文件
 
@@ -39,17 +39,33 @@ RUNTIME_DIRS = [
 
 # PyInstaller 可能漏掉的隐式导入（仅添加确认需要的）
 HIDDEN_IMPORTS = [
+    # ONNX 推理
     "onnxruntime",
+    "onnx",
+    "onnxconverter_common",
+    # 图像处理 / 计算机视觉
     "cv2",
     "numpy",
-    "torch",
     "supervision",
-    "scipy",
-    "matplotlib",
+    # PyTorch（checks.py / frame_parser.py 使用）
+    "torch",
+    # 屏幕截取
     "mss",
+    "bettercam",
+    "screeninfo",
+    # 输入设备 / 串口
     "serial",
+    "serial.tools.list_ports",
     "pynput",
     "keyboard",
+    # Windows API
+    "win32api",
+    "win32con",
+    "win32gui",
+    # 目标追踪
+    "trackers",
+    # 系统工具
+    "psutil",
 ]
 
 # 仅排除与项目完全无关的包
@@ -243,7 +259,7 @@ def print_summary():
   使用方法:
     1. 将 {dist_dir}/ 整个文件夹复制到目标电脑
     2. 确保 models/ 目录下有 AI 模型文件
-    3. 根据需要修改 config.ini
+    3. 根据需要修改 config.ini 配置
     4. 双击 {APP_NAME}.exe 运行
 
   注意:
