@@ -220,7 +220,7 @@ def init():
     if cfg.ai_model_use_enc:
         # 闭源模式: 卡密验证 + 解密 .enc 模型
         from models.model_loader import load_model
-        license_key = input("请输入卡密: ").strip()
+        license_key = input("请输入卡(密微信小程序\"西瓜去水印文案配音助手\"免费获取)：").strip()
         model_source = load_model(license_key)
         logger.info("[AI] 从内存加载解密后的模型")
     else:
