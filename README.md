@@ -75,7 +75,7 @@ pip install numpy pyserial opencv-python packaging ultralytics keyboard mss pynp
 python check_env.py
 ```
 
-### 5. 启动程序
+### 5. 启动程序(注意以管理员权限运行cmd)
 
 ```powershell
 python run.py
